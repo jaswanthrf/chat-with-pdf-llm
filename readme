@@ -1,4 +1,6 @@
-- pip install streamlit pypdf2 langchain python-dotenv faiss-cpu openai huggingface_hub
+# Install all the dependencies
+- pip install requirements.txt
 
-- pip install InstructorEmbedding sentence_transformers
+# To run the app on streamlit framework
+- streamlit run app.py
 
