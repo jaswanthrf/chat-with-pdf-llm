@@ -1,5 +1,20 @@
+# Install virtualenv if you haven't already
+pip3 install virtualenv
+
+# Create a virtual environment named "venv"
+virtualenv venv
+
+# Activate the virtual environment
+# On Windows
+venv\Scripts\activate
+# On macOS/Linux
+source venv/bin/activate
+
+#create .env file and add the open_api_key
+OPENAI_API_KEY = ''
+
 # Install all the dependencies
-- pip install requirements.txt
+- pip3 install requirements.txt
 
 # To run the app on streamlit framework
 - streamlit run app.py
